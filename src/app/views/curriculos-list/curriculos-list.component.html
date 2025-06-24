@@ -1,0 +1,23 @@
+<div class="curriculo-list-container">
+  <h2>Lista de Currículos</h2>
+
+  <div class="filtros">
+    <input type="text" placeholder="Buscar por nome" [(ngModel)]="filtroNome" />
+    <input type="text" placeholder="Buscar por ID" [(ngModel)]="filtroId" />
+  </div>
+
+  <div class="listar-curriculos">
+    <div class="card" *ngFor="let curriculo of curriculosFiltrados">
+      <div class="card-body">
+        <h5>{{ curriculo.nome }}</h5>
+        <p><span>ID:</span> {{ curriculo.id }}</p>
+        <p><span>Idade:</span> {{ curriculo.idade }}</p>
+        <p><span>LinkedIn:</span> {{ curriculo.linkedin }}</p>
+        <p><span>GitHub:</span> {{ curriculo.github }}</p>
+        <p><span>Experiência:</span> {{ curriculo.experiencia }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="rodape"></div>

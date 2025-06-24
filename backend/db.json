@@ -1,0 +1,74 @@
+{
+  "vagas": [
+    {
+      "id": "2",
+      "nome": "Desenvolver BackEnd Pleno",
+      "foto": "foto2.jpg",
+      "descricao": "Trabalhar com Desenvolvimento Web",
+      "salario": 7000
+    },
+    {
+      "id": "3",
+      "nome": "Desenvolver Fullstack Senior",
+      "foto": "foto3.jpg",
+      "descricao": "Trabalhar com Desenvolvimento Web",
+      "salario": 10000
+    },
+    {
+      "id": "4",
+      "nome": "Engenherio nuvem",
+      "foto": "foto4.jpg",
+      "descricao": "Trabalhar com Cloud",
+      "salario": 8000
+    },
+    {
+      "id": "5",
+      "nome": "MArco",
+      "foto": "A",
+      "descricao": "A",
+      "salario": "32233232"
+    }
+  ],
+  "curriculos": [
+    {
+      "id": "1",
+      "nome": "João",
+      "idade": "34",
+      "linkedin": "https://br.linkedin.com/",
+      "github": "https://github.com/",
+      "experiencia": "Trabalhei por 4 anos na Microsoft"
+    },
+    {
+      "id": "2",
+      "nome": "Maria",
+      "idade": "25",
+      "linkedin": "https://br.linkedin.com/",
+      "github": "https://github.com/",
+      "experiencia": "Trabalhei por 2 anos na Mahle"
+    },
+    {
+      "id": "3",
+      "nome": "Cleber",
+      "idade": "30",
+      "linkedin": "https://br.linkedin.com/",
+      "github": "https://github.com/",
+      "experiencia": "Trabalhei por 3 anos na Kabum"
+    },
+    {
+      "id": "4",
+      "nome": "Matheus",
+      "idade": "26",
+      "linkedin": "https://br.linkedin.com/",
+      "github": "https://github.com/",
+      "experiencia": "Trabalhei por 4 anos na Google"
+    },
+    {
+      "id": "5",
+      "nome": "Marco",
+      "idade": 0,
+      "linkedin": "",
+      "github": "",
+      "experiencia": ""
+    }
+  ]
+}

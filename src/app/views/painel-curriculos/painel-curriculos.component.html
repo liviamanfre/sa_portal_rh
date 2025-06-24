@@ -1,0 +1,56 @@
+<h2>Cadastrar Currículo</h2>
+<form>
+  <label for="id">ID</label>
+  <input type="text" id="id" name="id" [(ngModel)]="curriculo.id" /> <br />
+
+  <label for="nome">Nome</label>
+  <input type="text" id="nome" name="nome" [(ngModel)]="curriculo.nome" /> <br />
+
+  <label for="idade">Idade</label>
+  <input type="text" id="idade" name="idade" [(ngModel)]="curriculo.idade" /> <br />
+
+  <label for="linkedin">LinkedIn</label>
+  <input type="text" id="linkedin" name="linkedin" [(ngModel)]="curriculo.linkedin" /> <br />
+
+  <label for="github">GitHub</label>
+  <input type="text" id="github" name="github" [(ngModel)]="curriculo.github" /> <br />
+
+  <label for="experiencia">Experiência</label>
+  <input type="text" id="experiencia" name="experiencia" [(ngModel)]="curriculo.experiencia" /> <br />
+
+  <button type="button" (click)="cadastrarCurriculo()">Cadastrar Currículo</button>
+  <button type="button" (click)="atualizarCurriculo(curriculo.id)">Atualizar Currículo</button>
+  <button type="button" (click)="excluirCurriculo(curriculo.id)">Excluir Currículo</button>
+</form>
+
+<!-- Tabela com os currículos já cadastrados -->
+<section class="listar-curriculos">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nome</th>
+        <th>Idade</th>
+        <th>LinkedIn</th>
+        <th>GitHub</th>
+        <th>Experiência</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let curriculo of curriculos">
+        <td>{{ curriculo.id }}</td>
+        <td>{{ curriculo.nome }}</td>
+        <td>{{ curriculo.idade }}</td>
+        <td>{{ curriculo.linkedin }}</td>
+        <td>{{ curriculo.github }}</td>
+        <td>{{ curriculo.experiencia }}</td>
+        <td>
+          <button type="button" (click)="listarCurriculoPorId(curriculo)">Listar</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<div class="rodape"></div>

@@ -1,0 +1,35 @@
+.container{
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  h1{
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+
+    @media(max-width: 800px){
+      font-size: 2rem;
+    }
+
+    @media(max-width: 480px){
+      font-size: 1.5rem;
+    }
+  }
+  p{
+    color: #555;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: center;
+
+    @media(max-width:640px){
+      font-size: 0.8rem;
+    }
+  }
+
+}
