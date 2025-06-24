@@ -7,9 +7,9 @@ import { Curriculo } from '../models/curriculo.model';
   providedIn: 'root'
 })
 export class CurriculoService {
-  private apiUrl = "http://localhost:3001/curriculos"; // endereço da Api
+  private apiUrl = "http://localhost:3015/curriculos"; // endereço da Api
   constructor(private http: HttpClient) {
-    
+
   }
   //criar os métodos para conexão com a apiREST
   //get - obter a lista de curriculos
